@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.rpt.reactnativecheckpackageinstallation">
+    <queries>
+        <package android:name="com.blogspot.newapphorizons.fakegps" />
+        <package android:name="com.rosteam.gpsemulator" />
+        <package android:name="com.lexa.fakegps" />
+        <package android:name="com.hopefactory2021.fakegpslocation" />
+        <package android:name="com.just4funtools.fakegpslocationprofessional" />
+        <package android:name="com.locationchanger" />
+        <package android:name="com.marlon.floating.fake.location" />
+        <package android:name="app.steve.fakeroute" />
+        <package android:name="net.marlove.mockgps" />
+        <package android:name="com.fly.gps" />
+        <package android:name="com.theappninjas.fakegpsjoystick" />
+        <package android:name="ru.gavrikov.mocklocations" />
+        <package android:name="com.ninja.toolkit.pulse.fake.gps.pro" />
+        <package android:name="com.incorporateapps.fakegps_route" />
+        <package android:name="com.mock.cartage" />
+        <package android:name="com.life360.android.safetymapd" />
+        <package android:name="com.theappninjas.fakegpsjoystick" />
+        <package android:name="fakegps.fakelocation.mocklocation.gpsfaker" />
+        <package android:name="fake.gps.location.changer.spoof.location" />
+        <package android:name="location.changer.fake.gps.spoof.emulator" />
+        <package android:name="top.tinysoft.fakegps" />
+        <package android:name="com.imyfone.anytoandroid" />
+        <package android:name="project.listick.fakegps" />
+        <package android:name="com.incorporateapps.fakegps.fre" />
+        <package android:name="com.discipleskies.mock_location_spoofer" />
+        <package android:name="com.pgsharp.pokemongo" />
+    </queries>
+</manifest>
