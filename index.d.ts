@@ -1,17 +1,41 @@
-declare module 'react-native-app-fake-installed' {
-  export class AppInstalledChecker {
-    static getAppList(): string[];
-    static checkPackageName(packagename: string): Promise<boolean>;
-    static checkURLScheme(proto: string, query?: string): Promise<boolean>;
-    static isAppInstalled(key: string): Promise<boolean>;
-    static isAppInstalledAndroid(key: string): Promise<boolean>;
-    static isAppInstalledIOS(key: string): Promise<boolean>;
+declare module 'react-native-state-networkV2' {
+  export class AppNetworkUtils {
+    /**
+     * Checks if WiFi is enabled.
+     * @returns A promise that resolves with a boolean indicating if WiFi is enabled.
+     */
+    static isWifiEnabled(): Promise<boolean>;
+
+    /**
+     * Checks if mobile network is enabled.
+     * @returns A promise that resolves with a boolean indicating if mobile network is enabled.
+     */
+    static isMobileNetworkEnabled(): Promise<boolean>;
+
+    /**
+     * Checks if GPS is enabled.
+     * @returns A promise that resolves with a boolean indicating if GPS is enabled.
+     */
+    static isGpsEnabled(): Promise<boolean>;
   }
 
-  export const CheckPackageInstallation: {
-    isPackageInstalled(
-      packagename: string,
-      callback: (isInstalled: boolean) => void
-    ): void;
+  export const NetworkUtils: {
+    /**
+     * Checks if WiFi is enabled.
+     * @returns A promise that resolves with a boolean indicating if WiFi is enabled.
+     */
+    isWifiEnabled(): Promise<boolean>;
+
+    /**
+     * Checks if mobile data is enabled.
+     * @returns A promise that resolves with a boolean indicating if mobile data is enabled.
+     */
+    isMobileDataEnabled(): Promise<boolean>;
+
+    /**
+     * Checks if GPS is enabled.
+     * @returns A promise that resolves with a boolean indicating if GPS is enabled.
+     */
+    isGpsEnabled(): Promise<boolean>;
   };
 }

@@ -1,4 +1,4 @@
-import AppInstalledChecker from './app-installed-checker';
-import CheckPackageInstallation from './android';
+import AppNetworkUtils from './app-network';
+import NetworkUtils from './android';
 
-export { AppInstalledChecker, CheckPackageInstallation };
+export { NetworkUtils, AppNetworkUtils };

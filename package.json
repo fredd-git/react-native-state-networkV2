@@ -1,7 +1,7 @@
 {
-    "name": "react-native-app-fake-installed",
-    "version": "0.0.2",
-    "description": "React Native plugin for checking if apps/packages Fake GPS applications are installed on the device or not.",
+    "name": "react-native-state-networkv2",
+    "version": "0.0.1",
+    "description": "React Native plugin to check if Wi-Fi, Mobile Network or GPS is on or off.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
         "ios",
         "android"
     ],
-    "author": "RedPandaTronics LTD",
+    "author": "fredd-git",
     "license": "MIT",
     "nativePackage": true,
     "rnpm": {
@@ -27,10 +27,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fredd-git/react-native-app-fake-installed.git"
+        "url": "git+https://github.com/fredd-git/react-native-state-networkv2.git"
     },
     "bugs": {
-        "url": "https://github.com/fredd-git/react-native-app-fake-installed.git/issues"
+        "url": "https://github.com/fredd-git/react-native-state-networkv2.git/issues"
     },
-    "homepage": "https://github.com/fredd-git/react-native-app-fake-installed.git#readme"
+    "homepage": "https://github.com/fredd-git/react-native-state-networkv2.git#readme"
 }
